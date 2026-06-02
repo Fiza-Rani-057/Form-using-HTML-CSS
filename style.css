@@ -1,10 +1,22 @@
-  *{
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  .container{
-    height:  700px;
+}
+
+body {
+    margin: 0;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.container{
+    height: 700px;
     width: 100%;
-    background-color: rgb(152, 233, 233);
-  }
+    background-color: rgb(190, 251, 251);
+    justify-items: center;
+    padding-top: 200px;
+}
+ 
