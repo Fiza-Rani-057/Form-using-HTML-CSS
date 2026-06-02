@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.div{
+  height: 100px;
+  width: 500px;
+  order: 2px solid black;
+  margin-left: 400px;
+  margin-top: 200px;
+
+}
