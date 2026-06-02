@@ -1,1 +1,10 @@
-  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    height:  700px;
+    width: 100%;
+    background-color: rgb(152, 233, 233);
+  }
