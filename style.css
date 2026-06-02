@@ -16,7 +16,19 @@ body {
     height: 700px;
     width: 100%;
     background-color: rgb(190, 251, 251);
-    justify-items: center;
-    padding-top: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
 }
- 
+.childdiv1{
+     position: fixed;
+    right: 200px;
+    left: 100px;
+    width: 300px;
+    height: 400px;
+    
+}
+.childdiv2{
+  
+}
