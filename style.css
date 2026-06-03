@@ -10,12 +10,13 @@ body {
     font-family: poppins, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    background-color: #aaaa;
+    color: #666666;
+   background: #eaeff4;
 }
 .container{
     height: 300px;
     width: 50%;
-    background-color: rgb(190, 251, 251);
+    background-color: white;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -30,7 +31,7 @@ body {
      position: fixed;
     right: 200px;
     left: 250px;
-    width: 300px;
+    width: 330px;
     height: 400px; 
      color: white;
     background-color: rgb(8, 175, 8);
@@ -42,12 +43,13 @@ body {
   padding-top: 20px;
   text-align: left;
   padding-left: 20px;
+  margin-bottom: 20px;
 }
 .para1{
   text-align: left;
-   padding-left: 20px;
-   font-size: 15px;
-   margin-bottom: 30px;
+   padding-left: 15px;
+   font-size: 16px;
+   margin-bottom: 40px;
 }
 .a1{
   color: white;
@@ -71,4 +73,62 @@ body {
   width: 500px;
   height: 300px;
   margin-bottom: 400px;
+  padding-left: 100px;
 }
+ .head2{
+  text-align: left;
+  margin-left: 100px;
+  padding-bottom: 30px;
+ }
+ #label1{
+  padding-left: 90px;
+  text-shadow: 0px 0px 1px #666666;
+  font-size: 15px;
+ }
+ .star1{
+  color: red;
+ }
+ .star2{
+  color: red;
+ }
+ #divstar{
+  display: flex;
+ }
+ #username{
+   padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+ }
+ #label2{
+   padding-left: 100px;
+   text-shadow: 0px 0px 1px #666666;
+    font-size: 15px;
+ }
+ #divstar2{
+  display: flex;
+ }
+ #password{
+   padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+ }
+ .btn2{
+  margin-top: 10px;
+   padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  font-size: 15px;
+  border: 2px solid green;
+  color: green;
+  background-color: white;
+ }
+ .btn2:hover{
+  color: white;
+  background-color: #388E3C;
+ }
