@@ -14,7 +14,7 @@ body {
    background: #eaeff4;
 }
 .container{
-    height: 300px;
+    height: 200px;
     width: 50%;
     background-color: white;
     justify-content: center;
@@ -26,6 +26,8 @@ body {
    bottom: 50px;
    left: 250px;
    text-align: center;
+   border: 2px solid gray;
+   box-shadow: 0px 2px 7px #666666;
 }
 .childdiv1{
      position: fixed;
@@ -132,6 +134,7 @@ body {
  .btn2:hover{
   color: white;
   background-color:rgb(9, 183, 9);
+  cursor: pointer;
  }
  .a2{
   font-size: 12px;
